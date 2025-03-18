@@ -36,7 +36,7 @@ if user_choice == 'b':
 else: 
     print(f"{user_choice} is incorrect. The correct answer is b.")
 
-print("\n4. (Ma. Rose L. Tolentino) What data type is the following? my_value = 'True'")
+print("\n4. (Ma. Rose L. Tolentino) What data type is the following? my_value = \"True\"")
 print("a. Boolean             c. Integer")
 print("b. String              d. Float")
 user_choice = input("Enter your answer: ").lower()
