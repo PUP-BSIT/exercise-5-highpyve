@@ -91,4 +91,26 @@ if user_choice == 'd':
 else: 
     print(f"{user_choice} is incorrect. The correct answer is d.")
 
+print("\n9. (Eurielle Bayos) What is my favorite animal?")
+print("a. Dog                   b. Cat")
+print("c. Capybara              d. Otter")
+user_choice = input("Enter your answer: ").lower()
+
+if user_choice == 'b':
+    print("You got the corrrect answer. Congratulations.")
+    score_counter += 1
+else:
+    print(f"{user_choice} is incorrect. The correct answer is b.")
+
+print("\n10. (Eurielle Bayos) What fur color do cats that often have genetic defects, such as poor hearing and eyesight, usually have?")
+print("a. White                 b. Tabby")
+print("c. Black                 d. Torti")
+user_choice = input("Enter your answe: ").lower()
+
+if user_choice == 'a':
+    print("You got the correct answer. Congratulations.")
+    score_counter += 1
+else: 
+    print(f"{user_choice} is incorrect. The correct answer is a.")
+
 print(f"\nYour score is {score_counter}/10")
