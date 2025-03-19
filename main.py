@@ -69,4 +69,26 @@ if user_choice == 'c':
 else: 
     print(f"{user_choice} is incorrect. The correct answer is c.")
 
+print("\n7. (Jaira Isabel F. Ocariza)) What is my favorite shonen anime?")
+print("a. Hunter x Hunter       c. Fruits Basket")
+print("b. One Piece             d. Black Cover")
+user_choice = input("Enter your answer: ").lower()
+
+if user_choice == 'a': 
+    print("You got the correct answer. Congratulations.")
+    score_counter += 1
+else: 
+    print(f"{user_choice} is incorrect. The correct answer is a.")
+
+print("\n8. (Jaira Isabel F. Ocariza) What is my dog's name?")
+print("a. Tofu                 c. Maru")
+print("b. Popper               d. Patch")
+user_choice = input("Enter your answer: ").lower()
+
+if user_choice == 'd': 
+    print("You got the correct answer. Congratulations.")
+    score_counter += 1
+else: 
+    print(f"{user_choice} is incorrect. The correct answer is d.")
+
 print(f"\nYour score is {score_counter}/10")
